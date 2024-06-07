@@ -1,3 +1,6 @@
+### LSTM Music Generation
+https://nbviewer.org/github/WellyWong/LSTM_music_generation/blob/main/LSTM_music_generation.ipynb
+
 This is a final project for DTSA 5511 Introduction to Deep Learning. For this project, I decided to work on something 'fun': music generation. I will be utilizing attention based Bi-directional LSTM (Long Short-Term Memory) to produce classical style music. LSTMs perform well for processing sequences of data with long-range dependencies, making them suitable for generating music. They can capture information from earlier time steps and remember it for an extended period. 
 
 For the dataset, I will use classical music MIDI files sourced from [*Classical Piano Midi Page*](http://www.piano-midi.de/midi_files.htm). The MIDI files contain compositions for a single instrument: piano, from various composers. 
