@@ -18,3 +18,5 @@ My code is based on my interpretation of the works by Alex Issa [*DataScienceMus
 *Diagram showing Bi-directional LSTM with Attention mechanism. Credit: [Gullapalli Keerti et. al](https://arxiv.org/pdf/2002.03854)*
 
 ![bilstm_attn](https://github.com/WellyWong/LSTM_music_generation/assets/70742141/c2a07bdc-80d1-4837-9d26-f061f059a860)
+
+The difference between implementation and the model architecture in the diagram above is that in the code, I added the second LSTM layer before the Attention layer. This allows the model to capture more complex temporal dependencies before applying attention. However, this increases the model's complexity.
